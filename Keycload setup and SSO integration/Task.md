@@ -332,3 +332,30 @@ Login using SSO
 - You should be redirected to keycloak console
 - Login with your keycloak credentials
 - On successful login you will be redirected back to Openplc site
+
+### 8. Creating Podman Image
+
+We will create an new image which will be have the modified configurations and updates.
+
++ First of all stop the running container.
++ Now re-run the image with 
+
+```bash
+podman run -d --name openplc_container --cgroups=split --pull never --network slirp4netns:allow_host_loopback=true --cap-add net_raw -v openplc_volume:/var/www/html/sites/default/files:Z --publish 8081:80   localhost/openplc_image:latest
+```
+
+Once the container is up, we need to perform some operations inside the container, you need to repeate step 5.
+
+Once thats done, create a new image, I will use the same name as the current one, as of which next time the openplc_persist.service file is run the image will run and it will be the updated image. 
+
+```bash
+podman commit openplc_container localhost/openplc_image
+podman images
+```
+
+Now run openplc_persist.service
+```bash
+systemctl --user start openplc_persist
+```
+
+Now the container will start running, also now anytime if the server restarts the container will run according to the updated state, and errors that we recieved earlier will not follow.
