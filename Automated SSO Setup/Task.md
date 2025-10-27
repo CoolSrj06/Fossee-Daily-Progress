@@ -51,7 +51,7 @@ client.json
 Add the script
 
 ```sh
-wget 
+wget https://github.com/CoolSrj06/Fossee-Daily-Progress/blob/master/Automated%20SSO%20Setup/keycloak.md
 ```
 
 Fix permissions and run the script
@@ -87,7 +87,7 @@ Add the file which you got from keycloak script (optional we have other way too)
 Add script file
 
 ```sh
-wget 
+wget https://github.com/CoolSrj06/Fossee-Daily-Progress/blob/master/Automated%20SSO%20Setup/drupal.md
 ```
 
 Run the script file
