@@ -14,7 +14,7 @@ This part of documentation is a explanation to all the configurations that are b
 | `settings.keycloak_groups.split_groups false`                               | Prevents splitting nested group names.                                          |
 | `settings.keycloak_groups.split_groups_limit '0'`                           | Sets no limit for group splitting (not active since disabled).                  |
 | `settings.keycloak_groups.rules []`                                         | No custom group mapping rules are defined.                                      |
-| `settings.keycloak_sso true`                                                | Enables single sign-on (SSO) for seamless Keycloak login.                       |
+| `settings.keycloak_sso true`                                                | Enables single sign-on (SSO). If a user is already logged into Keycloak, they will be automatically logged into Drupal without seeing a login form.                       |
 | `settings.keycloak_sign_out true`                                           | Enables Keycloak-based single sign-out (log out from both systems).             |
 | `settings.check_session.enabled false`                                      | Disables session checking via Keycloak iframe (reduces background polling).     |
 | `settings.check_session.interval null`                                      | No periodic session check interval set.                                         |
