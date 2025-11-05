@@ -51,7 +51,7 @@ client.json
 Add the script
 
 ```sh
-wget https://github.com/CoolSrj06/Fossee-Daily-Progress/blob/master/Automated%20SSO%20Setup/keycloak.md
+wget https://github.com/CoolSrj06/Fossee-Daily-Progress/blob/master/Automated%20SSO%20Setup/keycloak_user_config_script.md
 ```
 
 Fix permissions and run the script
@@ -74,29 +74,36 @@ mkdir drupal
 cd drupal
 ```
 
-Add the file which you got from keycloak script (optional we have other way too).
-
-
-```json
-[ {
-  "clientId" : <your_clientId>,
-  "secret" : <your_clientSecret>
-} ]
-```
-
-Add script file
+Download script file
 
 ```sh
-wget https://github.com/CoolSrj06/Fossee-Daily-Progress/blob/master/Automated%20SSO%20Setup/drupal.md
+wget https://github.com/CoolSrj06/Fossee-Daily-Progress/blob/master/Automated%20SSO%20Setup/openplc_config_script.md
+
+# copy the script 
+```
+
+``` bash
+# We need to enter the bash of Podman container
+podman exec -it <container name> bash
+# once we are inside the shell of container
+apt install vim -y
+vi openplc_config_script
+# paste the script content here then save and exit (:wq)
+
+# you will need your shell user name
+cat /etc/passwd
+#note the username, alternate command is ls -al
+# out will be in format eg:
+# rwx---x-r-x <user> <group> filename/dir-name
+# note this user
 ```
 
 Run the script file
 
 ```sh
-chmod +x drupal
-./drupal -ci clientId -s 'your_clientSecret' -v
-# or using long options:
-./drupal --client-id clientId --secret 'your_clientSecret' --verbose
+chmod +x openplc_config_script
+
+./openplc_config_script --client-id <client-name, eg: openplc> ----client-secret <secret-credential> --base <keycloak-base-url> --realm <eg: master> --email <email-of-keycloak-user> --drupal-user <username> --drupal-password <password> ----user <shell-user>
 ```
 
 ## 5. Test SSO

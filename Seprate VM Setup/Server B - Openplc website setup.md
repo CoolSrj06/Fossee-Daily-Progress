@@ -66,7 +66,7 @@ mkdir openplc
 
 git clone https://github.com/CoolSrj06/Fossee-Daily-Progress.git
 cp Fossee-Daily-Progress/Openplc/Dockerfile openplc/
-cp Fossee-Daily-Progress/Openplc/init.sites openplc/
+cp Fossee-Daily-Progress/Openplc/init_sites openplc/
 
 cd openplc
 touch sites.json
