@@ -39,12 +39,14 @@
             "id": "e51d961d3f376c99",
             "type": "leaf",
             "state": {
-              "type": "image",
+              "type": "markdown",
               "state": {
-                "file": "images/Pasted image 20251112141314.png"
+                "file": "Roundcube/Setting of Daily BackUps of SQL DB.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-image",
-              "title": "Pasted image 20251112141314"
+              "icon": "lucide-file",
+              "title": "Setting of Daily BackUps of SQL DB"
             }
           }
         ],
@@ -196,15 +198,18 @@
       "bases:Create new base": false
     }
   },
-  "active": "447e46b310e1be74",
+  "active": "e51d961d3f376c99",
   "lastOpenFiles": [
+    "Roundcube/Roundcube deployment in Dev. Mode.md",
+    "Roundcube/Setting of Daily BackUps of SQL DB.md",
+    "images/Pasted image 20251112141314.png",
+    "Roundcube",
     "Mailman Migration/Migrating Data From Mailman2 to Mailman3.md",
     "Mailman Migration/Mailman 2 Setup.md",
     "Mailman Migration/Mailman 3 Setup.md",
     "Untitled.md",
     "images/Pasted image 20251127190018.png",
     "Keycloak OldToNew Migration/Logs.md",
-    "images/Pasted image 20251112141314.png",
     "images",
     "Setting Up Host-Only Adapter.md",
     "Mailman Migration",
