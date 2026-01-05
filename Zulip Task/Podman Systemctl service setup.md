@@ -4,7 +4,7 @@
 
 Containers are Up and Running. A docker compose file that does this building of the containers
 
-![[Pasted image 20260102162600.png]]
+![alt text](<../images/Pasted image 20260102162600.png>)
 
 ## Creating a Systemd service
 
