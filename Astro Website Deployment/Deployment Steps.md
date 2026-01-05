@@ -379,7 +379,8 @@ http://YOUR_JENKINS_SERVER_IP:8080/github-webhook/
 
 _Note: If your Jenkins server is on a private network (localhost/AWS private IP), GitHub cannot reach it. You may need to use a tool like Ngrok or ensure your Security Group allows port 8080 from the internet._
 
-![[Pasted image 20251230140556.png]]
+![alt text](<../images/Pasted image 20251230140556.png>)
+
 ## **Phase 7: Final Verification**
 
 1. **Push a change:** Edit a file in your project (e.g., `README.md`) and push it to the `master` branch on GitHub.
@@ -388,7 +389,7 @@ _Note: If your Jenkins server is on a private network (localhost/AWS private IP)
     
 3. **Check Website:** Visit your Web Server IP. The changes should be live.
 
-![[Pasted image 20251230132913.png]]
+![alt text](<../images/Pasted image 20251230132913.png>)
 
 ## **Troubleshooting Checklist**
 
