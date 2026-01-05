@@ -1,6 +1,6 @@
 ## Initial status
 
-![alt text](<./images/Pasted image 20260102162509.png>)
+![alt text](<../images/Pasted image 20260102162509.png>)
 
 Containers are Up and Running. A docker compose file that does this building of the containers
 
