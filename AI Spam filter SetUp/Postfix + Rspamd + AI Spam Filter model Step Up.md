@@ -537,7 +537,7 @@ You should see a log line appear:
 
 Postfix should reject you with: `554 5.7.1 Spam message rejected`
 
-![Alt Text](../images/Screenshot%202026-01-29%20150331%1.png)
+![Alt Text](../images/Screenshot%202026-01-29%20150331.png)
 
 ---
 > "We used Podman because the required shared libraries for Rspamd aren't stable on AlmaLinux 10 yet. Instead of hacking the OS dependencies, I containerized Rspamd. This isolates the service and ensures reliability regardless of OS updates."
