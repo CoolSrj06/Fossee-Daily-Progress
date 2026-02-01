@@ -37,6 +37,8 @@ This setup will let your **host computer** (Windows/macOS/Linux) talk to your **
 
 ✅ Now your host (your real PC) has an internal network card `vboxnet0` with IP `192.168.56.1`.
 
+![[Pasted image 20260122134246.png]]
+
 ---
 
 ## 🖥️ Step 2: Attach this Host-Only adapter to your Rocky Linux VM
@@ -88,7 +90,7 @@ Write that name down — we’ll use it in the next step.
 
 ---
 
-## 🌐 Step 4: Assign a static IP using NetworkManager (`nmcli`)
+## Step 4: Assign a static IP using NetworkManager (`nmcli`)
 
 ### 4.1 Create a new connection for the host-only adapter:
 
