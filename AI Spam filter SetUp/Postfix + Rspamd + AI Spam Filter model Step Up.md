@@ -45,7 +45,8 @@ Start Postfix:
 sudo systemctl enable --now postfix
 ```
 
-![Alt Text](../images/Screenshot 2026-01-29 150248.png)
+![Alt Text](../images/Screenshot%2026-01-29%150248.png)
+
 ---
 ### Phase 2: Install & Configure Rspamd
 
@@ -237,7 +238,7 @@ curl -X POST "http://127.0.0.1:8000/scan" \
 **Expected Output:**
 You should see a JSON response saying `is_spam: true`.
 
-![[Screenshot 2026-01-29 150324.png]]
+![Alt Text](../images/Screenshot%2026-01-29%150324.png)
 
 ---
 
@@ -536,7 +537,7 @@ You should see a log line appear:
 
 Postfix should reject you with: `554 5.7.1 Spam message rejected`
 
-![[Screenshot 2026-01-29 150331 1.png]]
+![Alt Text](../images/Screenshot%2026-01-29%150331%1.png)
 
 ---
 > "We used Podman because the required shared libraries for Rspamd aren't stable on AlmaLinux 10 yet. Instead of hacking the OS dependencies, I containerized Rspamd. This isolates the service and ensures reliability regardless of OS updates."
