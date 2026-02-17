@@ -119,7 +119,7 @@ Check if container is running
 podman ps
 ```
 
-![](image.png)
+![container](images/image.png)
 
 Create openplc user
 
@@ -310,7 +310,7 @@ exit
 - Navigate to User > View profile > Connected Accounts > Connect Keycloak to link your existing Drupal admin user to Keycloak.
 - Logout from the Drupal site.
 
-![alt text](<Screenshot 2025-10-12 211253.png>)
+![sso-success-image](images/sso-success.png)
 
 ## 7. Test SSO
 

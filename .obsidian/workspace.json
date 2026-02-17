@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "AI Spam filter SetUp/Postfix + Rspamd + AI Spam Filter model Step Up.md",
+                "file": "Keycloak SSO Setup/SSO Setup On SIngle Server/Task.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Postfix + Rspamd + AI Spam Filter model Step Up"
+              "title": "Task"
             }
           }
         ]
@@ -171,6 +171,10 @@
   },
   "active": "ccb6c53da8afbdc5",
   "lastOpenFiles": [
+    "Keycloak SSO Setup/SSO Setup On SIngle Server/images/sso-success.png",
+    "Keycloak SSO Setup/SSO Setup On SIngle Server/Task.md",
+    "Screenshot.md",
+    "AI Spam filter SetUp/Postfix + Rspamd + AI Spam Filter model Step Up.md",
     "images/Pasted image 20260122134246.png",
     "images/Screenshot 2026-01-29 150331.png",
     "images/Screenshot 2026-01-29 150331 1.png",
@@ -180,8 +184,6 @@
     "Screenshot 2026-01-29 150331.png",
     "Screenshot 2026-01-29 150324.png",
     "Screenshot 2026-01-29 150304.png",
-    "images/Screenshot 2026-01-29 150248.png",
-    "AI Spam filter SetUp/Postfix + Rspamd + AI Spam Filter model Step Up.md",
     "images/Screenshot 2026-01-29 150248.png",
     "Zulip Task/Kanboard Setup.md",
     "AI Spam filter SetUp",
@@ -214,7 +216,6 @@
     "Seprate VM Setup/Server A - Keycloak Server.md",
     "Automated SSO Setup/Drupal OpenID Connect (Keycloak) Configuration Summary.md",
     "Automated SSO Setup/openplc_config_script.md",
-    "Automated SSO Setup/keycloak_user_config_Scipt.md",
-    "Automated SSO Setup/Task.md"
+    "Automated SSO Setup/keycloak_user_config_Scipt.md"
   ]
 }
