@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Keycloak SSO Setup/SSO Setup On SIngle Server/Task.md",
+                "file": "README.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Task"
+              "title": "README"
             }
           }
         ]
@@ -171,8 +171,8 @@
   },
   "active": "ccb6c53da8afbdc5",
   "lastOpenFiles": [
-    "Keycloak SSO Setup/SSO Setup On SIngle Server/images/sso-success.png",
     "Keycloak SSO Setup/SSO Setup On SIngle Server/Task.md",
+    "Keycloak SSO Setup/SSO Setup On SIngle Server/images/sso-success.png",
     "Screenshot.md",
     "AI Spam filter SetUp/Postfix + Rspamd + AI Spam Filter model Step Up.md",
     "images/Pasted image 20260122134246.png",
@@ -184,7 +184,6 @@
     "Screenshot 2026-01-29 150331.png",
     "Screenshot 2026-01-29 150324.png",
     "Screenshot 2026-01-29 150304.png",
-    "images/Screenshot 2026-01-29 150248.png",
     "Zulip Task/Kanboard Setup.md",
     "AI Spam filter SetUp",
     "Setting Up Host-Only Adapter.md",
